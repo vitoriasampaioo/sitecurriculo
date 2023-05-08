@@ -1,0 +1,97 @@
+aside{
+    flex: 30%;
+    background-color: #fff;
+    padding: 1em;
+}
+aside > .fotopessoal{
+    height: 300px;
+    background-image: url(../imagempessoal/1_b6wc.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+aside > .infopessoais{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center;
+    margin: 1em 1em 1em 1em;
+
+}
+.skills > .tituloSkills{
+    display: flex;
+}
+.skills > .tituloSkills > h2, .img{
+padding-left: 10px;
+margin: 10px 0 10px 10px;
+}
+.borda100{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ccc;
+    margin-bottom: 20px;
+}
+.preenchimento1{
+    width: 90%;
+    background-color: #68ac6e;
+    border: 1px solid #68ac6e;
+    border-radius: 10px;
+    text-align: center;
+}
+.preenchimento2{
+    width: 80%;
+    background-color: #68ac6e;
+    border: 1px solid #68ac6e;
+    border-radius: 10px;
+    text-align: center;
+}
+.preenchimento3{
+    width: 75%;
+    background-color: #68ac6e;
+    border: 1px solid #68ac6e;
+    border-radius: 10px;
+    text-align: center;
+}
+.preenchimento4{
+    width: 50%;
+    background-color: #68ac6e;
+    border: 1px solid #68ac6e;
+    border-radius: 10px;
+    text-align: center;
+}
+.p1{
+    margin: 5px 0px 5px 5px;
+}
+.preenchimento100{
+    width: 100%;
+    background-color: #68ac6e;
+    border: 1px solid #68ac6e;
+    border-radius: 10px;
+    text-align: center;
+    height: 20px;
+}
+.preenchimento50{
+    width: 50%;
+    background-color: #68ac6e;
+    border: 1px solid #68ac6e;
+    border-radius: 10px;
+    text-align: center;
+    height: 20px;
+}
+.preenchimento25{
+    width: 25%;
+    background-color: #68ac6e;
+    border: 1px solid #68ac6e;
+    border-radius: 10px;
+    text-align: center;
+    height: 20px;
+}
+.tituloLanguages{
+    display: flex;
+}
+.tituloLanguages > h2, .img{
+    padding-left: 10px;
+    margin: 10px 0px 10px 10px;
+}

@@ -1,0 +1,42 @@
+article{
+    flex: 70%;
+    margin: 0 0 0 1em;
+}
+
+.parte1{
+    background-color: #fff;
+    padding: 1em;
+}
+
+.parte2{
+    background-color: #fff;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.titulo{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.data{
+    display: flex;
+    align-items: center;
+
+}
+.current{
+    width: 10%;
+    background-color: #68ac6e;
+    border: 1px solid #68ac6e;
+    border-radius: 10px;
+    text-align: center;
+}
+
+hr{
+    margin-top: 1em;
+}
+.verde{
+    color:  #68ac6e;
+}
+
